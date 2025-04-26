@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    img{
+      opacity: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="main w-full  bg-[#EBEBEB]">
+    <div class="landing relative">
+      <div class="nav absolute top-0 left-0 w-full flex justify-between px-5 py-2 font-bold text-sm">
+        <h1>zajno</h1>
+        <h1 class="px-6">digital studio</h1>
+        <div class="">
+          <h1>work</h1>
+          <h1>studio</h1>
+          <h1>contact</h1>
+        </div>
+        <div>
+          <h1>twitter</h1>
+          <h1>instagram</h1>
+        </div>
+        <h1>los angeles, ca</h1>
+      </div>
+      <div class="branding">
+        <img src="/public/zajno.png" alt="">
+      </div>
+
+    </div>
+    <div class="video relative w-full h-[70vh]">
+      <button
+        class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white px-5 py-2 rounded-full ">Watch
+        Showreel</button>
+      <img class="object-cover w-full h-full object-top" src="public/phone.avif" alt="">
+    </div>
+    <div class="work flex px-5 py-2 border-b-2 border-black">
+      <div class="part1 w-[18%] py-10 ">
+        <h3 class="text-2xl font-bold ">Work</h3>
+      </div>
+      <div class="part2 py-10 w-[82%] ">
+        <div class="flex justify-between">
+          <p class="font-bold text-md w-1/2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime accusamus
+            sequi, nam saepe officia error adipisci aperiam cum minus. Dolores!</p>
+          <p class="font-bold text-md">@2024-25</p>
+
+        </div>
+        <div class="projects mt-20 ">
+          <div class="project flex justify-between font-bold border-t-2 pt-4 border-black mb-4">
+            <h4 class="font-bold text-xl ">01</h4>
+            <h1 class="font-bold text-xl w-[15rem]">Lorem ipsum dolor sit amet.</h1>
+            <div class="font-bold text-xl ">
+              <h3 class="text-orange-600">Branding</h3>
+              <h3>UI & UX</h3>
+            </div>
+            <div class="imageiv   w-[200px]">
+              <img src="public/apple.avif" alt="">
+            </div>
+          </div>
+          <div class="project flex justify-between font-bold border-t-2 pt-4 border-black mb-4">
+            <h4 class="font-bold text-xl ">02</h4>
+            <h1 class="font-bold text-xl w-[15rem]">Lorem ipsum dolor sit amet.</h1>
+            <div class="font-bold text-xl ">
+              <h3 class="text-orange-600">8finance</h3>
+              <h3>Crypto</h3>
+            </div>
+            <div class="imageiv   w-[200px]">
+              <img src="public/hand.avif" alt="">
+            </div>
+          </div>
+          <div class="project flex justify-between font-bold border-t-2 pt-4 border-black mb-4">
+            <h4 class="font-bold text-xl ">03</h4>
+            <h1 class="font-bold text-xl w-[15rem]">Lorem ipsum dolor sit amet.</h1>
+            <div class="font-bold text-xl ">
+              <h3 class="text-orange-600">Okii</h3>
+              <h3>Crypto</h3>
+            </div>
+            <div class="imageiv   w-[200px]">
+              <img src="public/robo.avif" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="studio flex justify-between px-5 py-2 border-b-2 border-black mt-5">
+      <div class="info1 flex justify-between w-[54%] ">
+        <h1 class="text-xl font-bold">Studio</h1>
+        <p class="w-1/2 text-2xl font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          accusantium minus magni reiciendis error odio ad facere, aliquid nesciunt itaque? Eos, ratione vel!</p>
+      </div>
+      <div class="info2 w-[40%] ">
+        <div class="object-cover">
+          <img src="public/people.avif" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="sevenonefive w-full relative h-screen overflow-hidden mt-10">
+      <div class="w-full flex items-start justify-between absolute z-[99999] top-5 left-0 px-10">
+        <div class="w-72 h-80 ">
+          <img class="object-cover w-full h-full" src="/typing.avif" alt="">
+        </div>
+        <div class="w-72 h-80  mt-10">
+          <img class="object-cover w-full h-full" src="/green_nigga.avif" alt="">
+        </div>
+        <div class="w-72 h-80 ">
+          <img class="object-cover w-full h-full" src="/lap_on_rock.avif" alt="">
+        </div>
+        <div class="w-72 h-80  mt-10">
+          <img class="object-cover w-full h-full" src="/tablet.avif" alt="">
+        </div>
+
+      </div>
+
+      <h1 class="text-[50rem] leading-none -bottom-1/4 left-[4%]  absolute font-bold text-orange-600 text-center">715</h1>
+
+    </div>
+
+
+
+    <canvas class="fixed top-0 left-0 z-[999999]" id="canvas"></canvas>
+  <script src="main.js" type="module"></script>
+</body>
+
+</html>
